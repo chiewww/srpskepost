@@ -1,4 +1,4 @@
-```yaml
+yaml
 name: Update Pošta Srpske country list
 
 "on":
@@ -70,4 +70,4 @@ jobs:
         if: steps.changes.outputs.changed == 'false'
         run: |
           echo "No changes detected. output.txt is unchanged."
-```
+
