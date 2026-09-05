@@ -1,3 +1,4 @@
+```yaml
 name: Update Pošta Srpske country list
 
 on:
@@ -5,9 +6,6 @@ on:
 
   schedule:
     # Every day at 06:17 Europe/Belgrade time.
-    #
-    # 06:17 is deliberately not on the hour to reduce the chance
-    # of GitHub Actions schedule delays during high-load periods.
     - cron: "17 6 * * *"
       timezone: "Europe/Belgrade"
 
@@ -36,13 +34,26 @@ jobs:
         run: |
           python update.py
 
+      - name: Check output file
+        run: |
+          echo "Contents of output.txt:"
+          echo "----------------------------------------"
+          head -50 output.txt
+          echo "----------------------------------------"
+
+          echo "File information:"
+          wc -l output.txt
+          wc -c output.txt
+
       - name: Check whether output changed
         id: changes
         run: |
-          if git diff --quiet -- output.txt; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
+          if git status --short -- output.txt | grep -q .; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "output.txt is new or changed."
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "output.txt has not changed."
           fi
 
       - name: Commit changed output
@@ -61,3 +72,4 @@ jobs:
         if: steps.changes.outputs.changed == 'false'
         run: |
           echo "No changes detected. output.txt is unchanged."
+```
