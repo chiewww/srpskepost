@@ -7,429 +7,266 @@ from bs4 import BeautifulSoup
 URL = "https://www.postesrpske.com/spisak-zemalja-medjunarodne-posiljke/"
 
 
-POSTCROSSING = {
-    1: "Afghanistan",
-    2: "Åland Islands",
-    3: "Albania",
-    4: "Algeria",
-    5: "American Samoa",
-    6: "Andorra",
-    7: "Angola",
-    8: "Anguilla",
-    9: "Antarctica",
-    10: "Antigua & Barbuda",
-    11: "Argentina",
-    12: "Armenia",
-    13: "Aruba",
-    14: "Australia",
-    15: "Austria",
-    16: "Azerbaijan",
-    17: "Bahamas",
-    18: "Bahrain",
-    19: "Bangladesh",
-    20: "Barbados",
-    21: "Belarus",
-    22: "Belgium",
-    23: "Belize",
-    24: "Benin",
-    25: "Bermuda",
-    26: "Bhutan",
-    27: "Bolivia",
-    28: "Bonaire, Sint Eustatius and Saba",
-    29: "Bosnia-Herzegovina",
-    30: "Botswana",
-    31: "Brazil",
-    32: "British Indian Ocean Territory",
-    33: "Brunei",
-    34: "Bulgaria",
-    35: "Burkina Faso",
-    36: "Burundi",
-    37: "Cabo Verde",
-    38: "Cambodia",
-    39: "Cameroon",
-    40: "Canada",
-    41: "Cayman Islands",
-    42: "Central African Republic",
-    43: "Chad",
-    44: "Chile",
-    45: "China",
-    46: "Christmas Island",
-    47: "Cocos Islands",
-    48: "Colombia",
-    49: "Comoros",
-    50: "Congo",
-    51: "Dem. Rep. Of Congo",
-    52: "Cook Islands",
-    53: "Costa Rica",
-    54: "Côte d'Ivoire",
-    55: "Croatia",
-    56: "Cuba",
-    57: "Curaçao",
-    58: "Cyprus",
-    59: "Czechia",
-    60: "Denmark",
-    61: "Djibouti",
-    62: "Dominica",
-    63: "Dominican Republic",
-    64: "Ecuador",
-    65: "Egypt",
-    66: "El Salvador",
-    67: "Equatorial Guinea",
-    68: "Eritrea",
-    69: "Estonia",
-    70: "Eswatini /Swaziland",
-    71: "Ethiopia",
-    72: "Falkland Islands /Malvinas",
-    73: "Faroe Islands",
-    74: "Fiji",
-    75: "Finland",
-    76: "France",
-    77: "French Guiana",
-    78: "French Polynesia",
-    79: "French Southern Territories",
-    80: "Gabon",
-    81: "Gambia",
-    82: "Georgia",
-    83: "Germany",
-    84: "Ghana",
-    85: "Gibraltar",
-    86: "Greece",
-    87: "Greenland",
-    88: "Grenada",
-    89: "Guadeloupe",
-    90: "Guam",
-    91: "Guatemala",
-    92: "Guernsey",
-    93: "Guinea",
-    94: "Guinea-Bissau",
-    95: "Guyana",
-    96: "Haiti",
-    97: "Honduras",
-    98: "Hong Kong",
-    99: "Hungary",
-    100: "Iceland",
-    101: "India",
-    102: "Indonesia",
-    103: "Iran",
-    104: "Iraq",
-    105: "Ireland",
-    106: "Isle of Man",
-    107: "Israel",
-    108: "Italy",
-    109: "Jamaica",
-    110: "Japan",
-    111: "Jersey",
-    112: "Jordan",
-    113: "Kazakhstan",
-    114: "Kenya",
-    115: "Kiribati",
-    116: "Korea(North)",
-    117: "Korea(South)",
-    118: "Kosovo",
-    119: "Kuwait",
-    120: "Kyrgyzstan",
-    121: "Laos",
-    122: "Latvia",
-    123: "Lebanon",
-    124: "Lesotho",
-    125: "Liberia",
-    126: "Libya",
-    127: "Liechtenstein",
-    128: "Lithuania",
-    129: "Luxembourg",
-    130: "Macao",
-    131: "Madagascar",
-    132: "Malawi",
-    133: "Malaysia",
-    134: "Maldives",
-    135: "Mali",
-    136: "Malta",
-    137: "Marshall Islands",
-    138: "Martinique",
-    139: "Mauritania",
-    140: "Mauritius",
-    141: "Mayotte",
-    142: "Mexico",
-    143: "Micronesia",
-    144: "Moldova",
-    145: "Monaco",
-    146: "Mongolia",
-    147: "Montenegro",
-    148: "Montserrat",
-    149: "Morocco",
-    150: "Mozambique",
-    151: "Myanmar",
-    152: "Namibia",
-    153: "Nauru / Naoero",
-    154: "Nepal",
-    155: "Netherlands",
-    156: "New Caledonia",
-    157: "New Zealand",
-    158: "Nicaragua",
-    159: "Niger",
-    160: "Nigeria",
-    161: "Niue",
-    162: "Norfolk Island",
-    163: "Northern Mariana Islands",
-    164: "North Macedonia",
-    165: "Norway",
-    166: "Oman",
-    167: "Pakistan",
-    168: "Palau",
-    169: "Palestine",
-    170: "Panama",
-    171: "Papua New Guinea",
-    172: "Paraguay",
-    173: "Peru",
-    174: "Philippines",
-    175: "Pitcairn",
-    176: "Poland",
-    177: "Portugal",
-    178: "Puerto Rico",
-    179: "Qatar",
-    180: "Réunion",
-    181: "Romania",
-    182: "Russia",
-    183: "Rwanda",
-    184: "Saint Barthélemy",
-    185: "Saint Helena, Ascension and Tristan da Cunha",
-    186: "Saint Kitts and Nevis",
-    187: "Saint Lucia",
-    188: "Saint Martin",
-    189: "Saint Pierre & Miquelon",
-    190: "Saint Vincent and the Grenadines",
-    191: "Samoa",
-    192: "San Marino",
-    193: "Sao Tome and Principe",
-    194: "Saudi Arabia",
-    195: "Senegal",
-    196: "Serbia",
-    197: "Seychelles",
-    198: "Sierra Leone",
-    199: "Singapore",
-    200: "Sint Maarten",
-    201: "Slovakia",
-    202: "Slovenia",
-    203: "Solomon Islands",
-    204: "Somalia",
-    205: "South Africa",
-    206: "South Georgia and S. Sandwich Islands",
-    207: "South Sudan",
-    208: "Spain",
-    209: "Sri Lanka",
-    210: "Sudan",
-    211: "Suriname",
-    212: "Svalbard and Jan Mayen",
-    213: "Sweden",
-    214: "Switzerland",
-    215: "Syria",
-    216: "Taiwan",
-    217: "Tajikistan",
-    218: "Tanzania",
-    219: "Thailand",
-    220: "Timor-Leste",
-    221: "Togo",
-    222: "Tokelau",
-    223: "Tonga",
-    224: "Trinidad and Tobago",
-    225: "Tunisia",
-    226: "Turkey",
-    227: "Turkmenistan",
-    228: "Turks and Caicos Islands",
-    229: "Tuvalu",
-    230: "Uganda",
-    231: "Ukraine",
-    232: "United Arab Emirates",
-    233: "United Kingdom",
-    234: "Uruguay",
-    235: "U.S.A.",
-    236: "U.S. Minor Outlying Islands",
-    237: "Uzbekistan",
-    238: "Vanuatu",
-    239: "Vatican",
-    240: "Venezuela",
-    241: "Vietnam",
-    242: "Virgin Islands (UK)",
-    243: "Virgin Islands of the USA",
-    244: "Wallis & Futuna",
-    245: "Western Sahara",
-    246: "Yemen",
-    247: "Zambia",
-    248: "Zimbabwe",
-}
-
-
-ALIASES = {
-    "avganistan": 1,
-    "aland": 2,
-    "alandska ostrva": 2,
-    "bosna i hercegovina": 29,
-    "bonaire": 28,
-    "sint eustatius": 28,
-    "saba": 28,
-    "cape verde": 37,
-    "kabo verde": 37,
-    "demokratska republika kongo": 51,
-    "dem rep kongo": 51,
-    "dem rep of congo": 51,
-    "kostarika": 53,
-    "obala slonovace": 54,
-    "bjelorusija": 21,
-    "ceska": 59,
-    "ceska republika": 59,
-    "esvatini": 70,
-    "svazilend": 70,
-    "swaziland": 70,
-    "falklandska ostrva": 72,
-    "malvini": 72,
-    "francuska gvajana": 77,
-    "francuska polinezija": 78,
-    "francuske juzne teritorije": 79,
-    "gambija": 81,
-    "gruzija": 82,
-    "njemacka": 83,
-    "gibraltar": 85,
-    "grenada": 88,
-    "gvadelup": 89,
-    "gurnzi": 92,
-    "gvineja bisao": 94,
-    "gvineja": 93,
-    "gvajana": 95,
-    "hong kong": 98,
-    "island": 100,
-    "indija": 101,
-    "indonezija": 102,
-    "irak": 104,
-    "iran": 103,
-    "irska": 105,
-    "ostrvo man": 106,
-    "ostrvo covjeka": 106,
-    "ostrvo coveka": 106,
-    "izrael": 107,
-    "italija": 108,
-    "jamajka": 109,
-    "japan": 110,
-    "dzersi": 111,
-    "kazahstan": 113,
-    "kenija": 114,
-    "koreja sjever": 116,
-    "sjeverna koreja": 116,
-    "koreja jug": 117,
-    "juzna koreja": 117,
-    "kosovo": 118,
-    "kirgistan": 120,
-    "kirgistan": 120,
-    "letonija": 122,
-    "latvija": 122,
-    "liban": 123,
-    "lesoto": 124,
-    "liberija": 125,
-    "libija": 126,
-    "lihtenstajn": 127,
-    "litvanija": 128,
-    "luksemburg": 129,
-    "makao": 130,
-    "mjanmar": 151,
-    "mjanma": 151,
-    "namibija": 152,
-    "nauru": 153,
-    "naoero": 153,
-    "novi zeland": 157,
-    "nikaragva": 158,
-    "niger": 159,
-    "nigerija": 160,
-    "sjeverna makedonija": 164,
-    "oman": 166,
-    "pakistan": 167,
-    "palestina": 169,
-    "papua nova gvineja": 171,
-    "paragvaj": 172,
-    "peru": 173,
-    "filipini": 174,
-    "poljska": 176,
-    "portoriko": 178,
-    "reunion": 180,
-    "rumunija": 181,
-    "rusija": 182,
-    "ruanda": 183,
-    "sveta helena": 185,
-    "sveti kristofor i nevis": 186,
-    "sveti kristofor": 186,
-    "sveta lucija": 187,
-    "sveti martin": 188,
-    "sveti petar i mikelon": 189,
-    "sveti vinko i grenadini": 190,
-    "samoa": 191,
-    "san marino": 192,
-    "sao tome": 193,
-    "saomi": 193,
-    "saudijska arabija": 194,
-    "senegal": 195,
-    "srbija": 196,
-    "sejseli": 197,
-    "sijera leone": 198,
-    "singapur": 199,
-    "sint marten": 200,
-    "slovacka": 201,
-    "slovenija": 202,
-    "solomonska ostrva": 203,
-    "somalija": 204,
-    "juzna afrika": 205,
-    "juzna dzordzija": 206,
-    "juzni sendvic": 206,
-    "juzni sudan": 207,
-    "spanija": 208,
-    "sri lanka": 209,
-    "sudan": 210,
-    "surinam": 211,
-    "spicbergen": 212,
-    "svalbard": 212,
-    "jan mayen": 212,
-    "svedska": 213,
-    "svajcarska": 214,
-    "sirija": 215,
-    "tajvan": 216,
-    "tadzikistan": 217,
-    "tanzanija": 218,
-    "tajland": 219,
-    "istocni timor": 220,
-    "timor leste": 220,
-    "togo": 221,
-    "tokelau": 222,
-    "tonga": 223,
-    "trinidad i tobago": 224,
-    "tunis": 225,
-    "tunisija": 225,
-    "turska": 226,
-    "turkmenistan": 227,
-    "turks i kaikos": 228,
-    "tuvalu": 229,
-    "uganda": 230,
-    "ukrajina": 231,
-    "ujedinjeni arapski emirati": 232,
-    "velika britanija": 233,
-    "urugvaj": 234,
-    "sad": 235,
-    "sjedinjene americke drzave": 235,
-    "mala udaljena ostrva sad": 236,
-    "uzbekistan": 237,
-    "vanuatu": 238,
-    "vatikan": 239,
-    "venecuela": 240,
-    "vijetnam": 241,
-    "djevičanska ostrva britanska": 242,
-    "djevičanska ostrva sad": 243,
-    "valis i futuna": 244,
-    "zapadna sahara": 245,
-    "jemen": 246,
-    "zambija": 247,
-    "zimbabve": 248,
+# Postcrossing number by country/territory code.
+# The code from the Pošta Srpske table is used as the primary match.
+CODE_TO_NUMBER = {
+    "AF": 1,
+    "AX": 2,
+    "AL": 3,
+    "DZ": 4,
+    "AS": 5,
+    "AD": 6,
+    "AO": 7,
+    "AI": 8,
+    "AQ": 9,
+    "AG": 10,
+    "AR": 11,
+    "AM": 12,
+    "AW": 13,
+    "AU": 14,
+    "AT": 15,
+    "AZ": 16,
+    "BS": 17,
+    "BH": 18,
+    "BD": 19,
+    "BB": 20,
+    "BY": 21,
+    "BE": 22,
+    "BZ": 23,
+    "BJ": 24,
+    "BM": 25,
+    "BT": 26,
+    "BO": 27,
+    "BQ": 28,
+    "BA": 29,
+    "BW": 30,
+    "BR": 31,
+    "IO": 32,
+    "BN": 33,
+    "BG": 34,
+    "BF": 35,
+    "BI": 36,
+    "CV": 37,
+    "KH": 38,
+    "CM": 39,
+    "CA": 40,
+    "KY": 41,
+    "CF": 42,
+    "TD": 43,
+    "CL": 44,
+    "CN": 45,
+    "CX": 46,
+    "CC": 47,
+    "CO": 48,
+    "KM": 49,
+    "CG": 50,
+    "CD": 51,
+    "CK": 52,
+    "CR": 53,
+    "CI": 54,
+    "HR": 55,
+    "CU": 56,
+    "CW": 57,
+    "CY": 58,
+    "CZ": 59,
+    "DK": 60,
+    "DJ": 61,
+    "DM": 62,
+    "DO": 63,
+    "EC": 64,
+    "EG": 65,
+    "SV": 66,
+    "GQ": 67,
+    "ER": 68,
+    "EE": 69,
+    "SZ": 70,
+    "ET": 71,
+    "FK": 72,
+    "FO": 73,
+    "FJ": 74,
+    "FI": 75,
+    "FR": 76,
+    "GF": 77,
+    "PF": 78,
+    "TF": 79,
+    "GA": 80,
+    "GM": 81,
+    "GE": 82,
+    "DE": 83,
+    "GH": 84,
+    "GI": 85,
+    "GR": 86,
+    "GL": 87,
+    "GD": 88,
+    "GP": 89,
+    "GU": 90,
+    "GT": 91,
+    "GG": 92,
+    "GN": 93,
+    "GW": 94,
+    "GY": 95,
+    "HT": 96,
+    "HN": 97,
+    "HK": 98,
+    "HU": 99,
+    "IS": 100,
+    "IN": 101,
+    "ID": 102,
+    "IR": 103,
+    "IQ": 104,
+    "IE": 105,
+    "IM": 106,
+    "IL": 107,
+    "IT": 108,
+    "JM": 109,
+    "JP": 110,
+    "JE": 111,
+    "JO": 112,
+    "KZ": 113,
+    "KE": 114,
+    "KI": 115,
+    "KP": 116,
+    "KR": 117,
+    "XK": 118,
+    "PS": 119,
+    "KW": 120,
+    "KG": 120,
+    "LA": 121,
+    "LV": 122,
+    "LB": 123,
+    "LS": 124,
+    "LR": 125,
+    "LY": 126,
+    "LI": 127,
+    "LT": 128,
+    "LU": 129,
+    "MO": 130,
+    "MG": 131,
+    "MW": 132,
+    "MY": 133,
+    "MV": 134,
+    "ML": 135,
+    "MT": 136,
+    "MH": 137,
+    "MQ": 138,
+    "MR": 139,
+    "MU": 140,
+    "YT": 141,
+    "MX": 142,
+    "FM": 143,
+    "MD": 144,
+    "MC": 145,
+    "MN": 146,
+    "ME": 147,
+    "MS": 148,
+    "MA": 149,
+    "MZ": 150,
+    "MM": 151,
+    "NA": 152,
+    "NR": 153,
+    "NP": 154,
+    "NL": 155,
+    "NC": 156,
+    "NZ": 157,
+    "NI": 158,
+    "NE": 159,
+    "NG": 160,
+    "NU": 161,
+    "NF": 162,
+    "MP": 163,
+    "MK": 164,
+    "NO": 165,
+    "OM": 166,
+    "PK": 167,
+    "PW": 168,
+    "PA": 170,
+    "PG": 171,
+    "PY": 172,
+    "PE": 173,
+    "PH": 174,
+    "PN": 175,
+    "PL": 176,
+    "PT": 177,
+    "PR": 178,
+    "QA": 179,
+    "RE": 180,
+    "RO": 181,
+    "RU": 182,
+    "RW": 183,
+    "BL": 184,
+    "SH": 185,
+    "KN": 186,
+    "LC": 187,
+    "MF": 188,
+    "PM": 189,
+    "VC": 190,
+    "WS": 191,
+    "SM": 192,
+    "ST": 193,
+    "SA": 194,
+    "SN": 195,
+    "RS": 196,
+    "SC": 197,
+    "SL": 198,
+    "SG": 199,
+    "SX": 200,
+    "SK": 201,
+    "SI": 202,
+    "SB": 203,
+    "SO": 204,
+    "ZA": 205,
+    "GS": 206,
+    "SS": 207,
+    "ES": 208,
+    "LK": 209,
+    "SD": 210,
+    "SR": 211,
+    "SJ": 212,
+    "SE": 213,
+    "CH": 214,
+    "SY": 215,
+    "TW": 216,
+    "TJ": 217,
+    "TZ": 218,
+    "TH": 219,
+    "TL": 220,
+    "TG": 221,
+    "TK": 222,
+    "TO": 223,
+    "TT": 224,
+    "TN": 225,
+    "TR": 226,
+    "TM": 227,
+    "TC": 228,
+    "TV": 229,
+    "UG": 230,
+    "UA": 231,
+    "AE": 232,
+    "GB": 233,
+    "UY": 234,
+    "US": 235,
+    "UM": 236,
+    "UZ": 237,
+    "VU": 238,
+    "VA": 239,
+    "VE": 240,
+    "VN": 241,
+    "VG": 242,
+    "VI": 243,
+    "WF": 244,
+    "EH": 245,
+    "YE": 246,
+    "ZM": 247,
+    "ZW": 248,
 }
 
 
 def normalize_text(text):
     text = unicodedata.normalize("NFD", text)
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    text = "".join(
+        c for c in text
+        if unicodedata.category(c) != "Mn"
+    )
     text = text.lower()
     text = text.replace("&", " and ")
     text = text.replace("/", " ")
@@ -440,17 +277,20 @@ def normalize_text(text):
 
 def find_postcrossing_number(country_text):
     normalized = normalize_text(country_text)
-
-    # Explicit special rules requested by the user.
     words = set(normalized.split())
 
+    # Special rules requested by the user.
     if "salvador" in words:
         return 66
 
     if "man" in words:
         return 106
 
-    if "helena" in words and "ascension" in words and "tristan" in words:
+    if (
+        "helena" in words
+        and "ascension" in words
+        and "tristan" in words
+    ):
         return 185
 
     if "vincent" in words:
@@ -459,32 +299,17 @@ def find_postcrossing_number(country_text):
     if "nevis" in words:
         return 186
 
-    # Swaziland is always treated as Eswatini.
     if "swaziland" in words:
         return 70
 
-    # Exact/alias matching.
-    if normalized in ALIASES:
-        return ALIASES[normalized]
+    # Primary matching: two-letter code in the country name.
+    match = re.search(r"\(([A-Za-z]{2})\)", country_text)
 
-    for alias, number in ALIASES.items():
-        if alias in normalized:
-            return number
+    if match:
+        code = match.group(1).upper()
 
-    # Match against the English Postcrossing names.
-    for number, name in POSTCROSSING.items():
-        if normalized == normalize_text(name):
-            return number
-
-    # Try matching without the two-letter country code.
-    without_code = re.sub(r"\b[a-z]{2}\b", " ", normalized)
-    without_code = re.sub(r"\s+", " ", without_code).strip()
-
-    for number, name in POSTCROSSING.items():
-        candidate = normalize_text(name)
-
-        if without_code == candidate:
-            return number
+        if code in CODE_TO_NUMBER:
+            return CODE_TO_NUMBER[code]
 
     return None
 
@@ -500,8 +325,11 @@ def add_postcrossing_number(country_text):
 
 def extract_country_text(cell):
     text = cell.get_text(" ", strip=True)
+
     text = text.replace("*", "")
+
     text = re.sub(r"\s+", " ", text).strip()
+
     return text
 
 
@@ -525,33 +353,48 @@ def parse_table(html):
             continue
 
         country_cell = cells[1]
-        services_cell = cells[2] if len(cells) >= 3 else None
 
+        # A real country/territory row contains a two-letter
+        # country code in parentheses, e.g. (AF), (RS), (PG).
         country_text = extract_country_text(country_cell)
 
-        if not country_text:
-            continue
-
-        # Skip the table header.
-        normalized_country = normalize_text(country_text)
-        if "odredistna zemlja" in normalized_country:
-            continue
-
-        services_text = (
-            services_cell.get_text(" ", strip=True)
-            if services_cell is not None
-            else ""
+        code_match = re.search(
+            r"\(([A-Za-z]{2})\)",
+            country_text
         )
 
-        normalized_services = normalize_text(services_text)
+        if not code_match:
+            # This filters out lines such as:
+            # "Pismonosne, paketske"
+            # "STOP"
+            # table headers
+            continue
+
+        services_cell = cells[2] if len(cells) >= 3 else None
+
+        if services_cell is not None:
+            services_text = services_cell.get_text(
+                " ",
+                strip=True
+            )
+        else:
+            services_text = ""
+
+        normalized_services = normalize_text(
+            services_text
+        )
 
         all_countries.append(country_text)
 
-        # Suspended if:
-        # 1. services column contains exactly STOP, or
-        # 2. "Pismonosne" is missing from allowed services.
+        # Suspended when:
+        # 1. Services are exactly STOP
+        # OR
+        # 2. Pismonosne is missing.
         is_stop = normalized_services == "stop"
-        has_pismonosne = "pismonosne" in normalized_services
+
+        has_pismonosne = (
+            "pismonosne" in normalized_services
+        )
 
         if is_stop or not has_pismonosne:
             suspended_countries.append(country_text)
@@ -559,23 +402,34 @@ def parse_table(html):
     return all_countries, suspended_countries
 
 
-def build_output(all_countries, suspended_countries):
+def build_output(
+    all_countries,
+    suspended_countries
+):
     lines = []
 
     lines.append("SVE ZEMLJE")
-    lines.append(f"UKUPNO: {len(all_countries)}")
+    lines.append(
+        f"UKUPNO: {len(all_countries)}"
+    )
     lines.append("")
 
     for country in all_countries:
-        lines.append(add_postcrossing_number(country))
+        lines.append(
+            add_postcrossing_number(country)
+        )
 
     lines.append("")
     lines.append("SUSPENDOVANE ZEMLJE")
-    lines.append(f"UKUPNO: {len(suspended_countries)}")
+    lines.append(
+        f"UKUPNO: {len(suspended_countries)}"
+    )
     lines.append("")
 
     for country in suspended_countries:
-        lines.append(add_postcrossing_number(country))
+        lines.append(
+            add_postcrossing_number(country)
+        )
 
     lines.append("")
 
@@ -587,15 +441,21 @@ def main():
         URL,
         timeout=30,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; srpskepost-monitor/1.0)"
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(compatible; srpskepost-monitor/1.0)"
+            )
         },
     )
 
     response.raise_for_status()
 
-    all_countries, suspended_countries = parse_table(response.text)
+    all_countries, suspended_countries = parse_table(
+        response.text
+    )
 
-    # Safety checks.
+    # Safety check: never overwrite output.txt if
+    # the website structure has unexpectedly changed.
     if len(all_countries) < 100:
         raise RuntimeError(
             f"Only {len(all_countries)} countries were found. "
@@ -608,14 +468,23 @@ def main():
             "Refusing to overwrite output.txt."
         )
 
-    output = build_output(all_countries, suspended_countries)
+    output = build_output(
+        all_countries,
+        suspended_countries
+    )
 
-    with open("output.txt", "w", encoding="utf-8") as f:
+    with open(
+        "output.txt",
+        "w",
+        encoding="utf-8"
+    ) as f:
         f.write(output)
 
     print(
-        f"Successfully wrote {len(all_countries)} countries and "
-        f"{len(suspended_countries)} suspended countries to output.txt"
+        f"Successfully wrote "
+        f"{len(all_countries)} countries and "
+        f"{len(suspended_countries)} suspended countries "
+        f"to output.txt"
     )
 
 
