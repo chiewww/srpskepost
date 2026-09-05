@@ -3,264 +3,264 @@ POŠTA SRPSKE - MEĐUNARODNE POŠILJKE
 SVE ZEMLJE
 Ukupno: 231
 
-Avganistan (AF) AFGANISTAN
-Albanija (AL) ALBANIA
-Alžir (DZ) ALGERIA
-Američka Samoa (AS) AMERICAN SAMOA
-Andora (AD) ANDORRA
-Angola (AO) ANGOLA
-Antigva i Barbuda (AG) ANTIGUA & BARBUDA
-Argentina (AR) ARGENTINA
-Jermenija (AM) ARMENIA
-Australija (AU) AUSTRALIA
-Božićno Ostrvo (CX) CHRISTMAS ISLAND
-Kokosova Ostrva (CC) COCOS ISLAND
-Norfolk Ostrva (NF) NORFOLK ISLAND
-Austrija (AT) AUSTRIA
-Azerbejdžan (AZ) AZERBAIJAN
-Bahami (BS) BAHAMAS
-Bahrein (BH) BAHRAIN
-Bangladeš (BD) BANGLADESH
-Barbados (BB) BARBADOS
-Belorusija (BY) BELARUS
-Belgija (BE) BELGIUM
-Beliz (BZ) BELIZE
-Benin (BJ) BENIN
-Butan (BT) BHUTAN
-Bolivija (BO) BOLIVIA
-Botsvana (BW) BOTSWANA
-Brazil (BR) BRAZIL
-Brunej Darusalam (BN) BRUNEI DARUSSALAM
-Bugarska (BG) BULGARIA
-Burkina Faso (BF) BURKINA FASO
-Burundi (BI) BURUNDI
-Kambodža (KH) CAMBODIA
-Kamerun (CM) CAMEROON
-Kanada (CA) CANADA
-Zelenortska Ostrva (CV) CAPE VERDE
-Centralnoafrička Republika (CF) CENTRAL AFRICAN REPUBLIC
-Čad (TD) CHAD
-Čile (CL) CHILE
-Kina (CN) CHINA
-Hong Kong (HK) HONG KONG
-Makao (MO) MACAU, China
-Kolumbija (CO) COLOMBIA
-Komori (KM) COMOROS
-Kongo Dem. Rep.(CD) CONGO DEM. REPUBLIC
-Kongo (CG) CONGO Rep.
-Kostarika (CR) COSTA RICA
-Obala Slonovače (CI) COTE D’IVOIRE
-Hrvatska (HR) CROATIA
-Kuba (CU) CUBA
-Kipar (CY) CYPRUS
-Češka Republika (CZ) CZECH REPUBLIC
-Danska (DK) DENMARK
-Farska Ostrva (FO) FAROE ISLANDS
-Grenland (GL) GREENLAND
-Džibuti (DJ) DJIBOUTI
-Dominika (DM) DOMINICA
-Dominikanska Republika (DO) DOMINICAN REPUBLIC
-Ekvador (EC) ECUADOR
-Egipat (EG) EGYPT
+1 - Avganistan (AF) AFGANISTAN
+3 - Albanija (AL) ALBANIA
+4 - Alžir (DZ) ALGERIA
+5 - Američka Samoa (AS) AMERICAN SAMOA
+6 - Andora (AD) ANDORRA
+7 - Angola (AO) ANGOLA
+10 - Antigva i Barbuda (AG) ANTIGUA & BARBUDA
+11 - Argentina (AR) ARGENTINA
+12 - Jermenija (AM) ARMENIA
+14 - Australija (AU) AUSTRALIA
+46 - Božićno Ostrvo (CX) CHRISTMAS ISLAND
+47 - Kokosova Ostrva (CC) COCOS ISLAND
+162 - Norfolk Ostrva (NF) NORFOLK ISLAND
+15 - Austrija (AT) AUSTRIA
+16 - Azerbejdžan (AZ) AZERBAIJAN
+17 - Bahami (BS) BAHAMAS
+18 - Bahrein (BH) BAHRAIN
+19 - Bangladeš (BD) BANGLADESH
+20 - Barbados (BB) BARBADOS
+21 - Belorusija (BY) BELARUS
+22 - Belgija (BE) BELGIUM
+23 - Beliz (BZ) BELIZE
+24 - Benin (BJ) BENIN
+26 - Butan (BT) BHUTAN
+27 - Bolivija (BO) BOLIVIA
+30 - Botsvana (BW) BOTSWANA
+31 - Brazil (BR) BRAZIL
+33 - Brunej Darusalam (BN) BRUNEI DARUSSALAM
+34 - Bugarska (BG) BULGARIA
+35 - Burkina Faso (BF) BURKINA FASO
+36 - Burundi (BI) BURUNDI
+38 - Kambodža (KH) CAMBODIA
+39 - Kamerun (CM) CAMEROON
+40 - Kanada (CA) CANADA
+37 - Zelenortska Ostrva (CV) CAPE VERDE
+42 - Centralnoafrička Republika (CF) CENTRAL AFRICAN REPUBLIC
+43 - Čad (TD) CHAD
+44 - Čile (CL) CHILE
+45 - Kina (CN) CHINA
+98 - Hong Kong (HK) HONG KONG
+130 - Makao (MO) MACAU, China
+48 - Kolumbija (CO) COLOMBIA
+49 - Komori (KM) COMOROS
+50 - Kongo Dem. Rep.(CD) CONGO DEM. REPUBLIC
+50 - Kongo (CG) CONGO Rep.
+53 - Kostarika (CR) COSTA RICA
+54 - Obala Slonovače (CI) COTE D’IVOIRE
+55 - Hrvatska (HR) CROATIA
+56 - Kuba (CU) CUBA
+58 - Kipar (CY) CYPRUS
+59 - Češka Republika (CZ) CZECH REPUBLIC
+60 - Danska (DK) DENMARK
+73 - Farska Ostrva (FO) FAROE ISLANDS
+87 - Grenland (GL) GREENLAND
+61 - Džibuti (DJ) DJIBOUTI
+62 - Dominika (DM) DOMINICA
+63 - Dominikanska Republika (DO) DOMINICAN REPUBLIC
+64 - Ekvador (EC) ECUADOR
+65 - Egipat (EG) EGYPT
 El Salvador (SV) EL SALVADOR
-Ekvatorialna Gvinea (GQ) EQUATORIAL GUINEA
-Eritreja (ER) ERITREA
-Estonija (EE) ESTONIA
-Etiopija (ET) ETHIOPIA
-Fidži (FJ) FIJI
-Finska (FI) FINLAND
-Francuska (FR) FRANCE
-Francuska Gvajana (GF) FRENCH GUIANA
-Francuska Polinezija (PF) FRENCH POLYNESIA
-Gvadalupe (GP) GUADELOUPE
-Martinik (MQ) MARTINIQUE
-Majot (YT) MAYOTTE
-Nova Kaledonija (NC) NEW CALEDONIA
-Reunion (RE) REUNION
-Sv. Petar i Mikelon (PM) SAINT PIERRE & MIQUELON
-Valis i Futuna (WF) WALLIS & FUTUNA
-Gabon (GA) GABON
-Gambija (GM) GAMBIA
-Gruzija (GE) GEORGIA
-Njemačka (DE) GERMANY
-Gana (GH) GHANA
-Velika Britanija (GB) GREAT BRITAIN
-Angvila (AI) ANGUILLA
-Bermudska Ostrva (BM) BERMUDA
-Britanska Devičanska Ostrva (VG) BRITISH VIRGIN ISLANDS
-Folklandska Ostrva (FK) FALKLAND ISLANDS
-Gibraltar (GI) GIBRALTAR
-Gernzi – (GB) GUERNSEY
-Džersi – (GB) JERSEY
-Kajman (KY) CAYMAN ISLANDS
-Monserat (MS) MONTSERRAT
+67 - Ekvatorialna Gvinea (GQ) EQUATORIAL GUINEA
+68 - Eritreja (ER) ERITREA
+69 - Estonija (EE) ESTONIA
+71 - Etiopija (ET) ETHIOPIA
+74 - Fidži (FJ) FIJI
+75 - Finska (FI) FINLAND
+76 - Francuska (FR) FRANCE
+77 - Francuska Gvajana (GF) FRENCH GUIANA
+78 - Francuska Polinezija (PF) FRENCH POLYNESIA
+89 - Gvadalupe (GP) GUADELOUPE
+138 - Martinik (MQ) MARTINIQUE
+141 - Majot (YT) MAYOTTE
+156 - Nova Kaledonija (NC) NEW CALEDONIA
+180 - Reunion (RE) REUNION
+189 - Sv. Petar i Mikelon (PM) SAINT PIERRE & MIQUELON
+244 - Valis i Futuna (WF) WALLIS & FUTUNA
+80 - Gabon (GA) GABON
+81 - Gambija (GM) GAMBIA
+82 - Gruzija (GE) GEORGIA
+83 - Njemačka (DE) GERMANY
+84 - Gana (GH) GHANA
+233 - Velika Britanija (GB) GREAT BRITAIN
+8 - Angvila (AI) ANGUILLA
+25 - Bermudska Ostrva (BM) BERMUDA
+100 - Britanska Devičanska Ostrva (VG) BRITISH VIRGIN ISLANDS
+100 - Folklandska Ostrva (FK) FALKLAND ISLANDS
+85 - Gibraltar (GI) GIBRALTAR
+92 - Gernzi – (GB) GUERNSEY
+111 - Džersi – (GB) JERSEY
+100 - Kajman (KY) CAYMAN ISLANDS
+148 - Monserat (MS) MONTSERRAT
 Man (GB) MAN – ISLE OF MAN
-Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
-Pitkern (PN) PITCAIRN
+100 - Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
+175 - Pitkern (PN) PITCAIRN
 Sv. Helena (SH) SAINT HELENA
 Ascension (AC) ASCENSION
 Tristan da Kunja (TA) TRISTAN da CUNHA
-Grčka (GR) GREECE
-Grenada (GD) GRENADA
-Gvatemala (GT) GUATEMALA
-Gvineja (GN) GUINEA
-Gvineja-Bisao (GW) GUINEA BISSAU
-Gvajana (GY) GUYANA
-Haiti (HT) HAITI
-Honduras (HN) HONDURAS
-Mađarska (HU) HUNGARY
-Island (IS) ICELAND
-Indija (IN) INDIA
-Indonezija (ID) INDONESIA
-Iran (IR) IRAN
-Irak (IQ) IRAQ
-Irska (IE) IRELAND
-Izrael (IL) ISRAEL
-Italija (IT) ITALY
-Jamajka (JM) JAMAICA
-Japan (JP) JAPAN
-Jordan (JO) JORDAN
-Kazahstan (KZ) KAZAKHSTAN
-Kenija (KE) KENYA
-Kiribati (KI) KIRIBATI
-Južna Koreja (KR) KOREA REPUBLIC
-Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
-Kuvajt (KW) KUWAIT
-Kirgistan (KG) KYRGYZSTAN
-Laos (LA) LAOS
-Letonija (LV) LATVIA
-Liban (LB) LEBANON
-Lesoto (LS) LESOTHO
-Liberija (LR) LIBERIA
-Libija (LY) LIBYAN ARAB JAMAHIRIYA
-Lihtenštajn (LI) LIECHTENSTEIN
-Litvanija (LT) LITHUANIA
-Luksemburg (LU) LUXEMBOURG
-Madagaskar (MG) MADAGASCAR
-Malavi (MW) MALAWI
-Malezija (MY) MALAYSIA
-Maldivi (MV) MALDIVES
-Mali (ML) MALI
-Malta (MT) MALTA
-Maršalska Ostrva (MH) MARSHALL ISLANDS
-Mauritanija (MR) MAURITANIA
-Mauricijus (MU) MAURITIUS
-Meksiko (MX) MEXICO
-Moldavija (MD) MOLDOVA
-Monako (MC) MONACO
-Mongolija (MN) MONGOLIA
-Crna Gora (ME) MONTENEGRO
-Maroko (MA) MOROCCO
-Mozambik (MZ) MOZAMBIQUE
-Mianmar (MM) MYANMAR
-Namibija (NA) NAMIBIA
-Nauru (NR) NAURU
-Nepal (NP) NEPAL
-Holandija (NL) NETHERLANDS
-Aruba (AW) ARUBA
-Novi Zeland (NZ) NEW ZEALAND
-Kukova Ostrva (CK) COOK ISLANDS
-Tokelau (TK) TOKELAU ISLANDS
-Nikaragva (NI) NICARAGUA
-Niger (NE) NIGER
-Nigerija (NG) NIGERIA
-Sjeverna Makedonija (MK) NORTH MACEDONIA
-Norveška (NO) NORWAY
-Oman (OM) OMAN
-Pakistan (PK) PAKISTAN
-Palau (PW) PALAU
-Panama Rep. (PA) PANAMA
-Papua Nova Gvineja (PG) PAPUA NEW GUINEA
-Paragvaj (PY) PARAGUAY
-Peru (PE) PERU
-Filipini (PH) PHILIPPINES
-Poljska (PL) POLAND
-Portugalija (PT) PORTUGAL
-Katar (QA) QATAR
-Rumunija (RO) ROMANIA
-Rusija (RU) RUSSIAN FEDERATION
-Ruanda (RW) RWANDA
-Sveta Lucija (LC) SAINT LUCIA
+86 - Grčka (GR) GREECE
+88 - Grenada (GD) GRENADA
+91 - Gvatemala (GT) GUATEMALA
+93 - Gvineja (GN) GUINEA
+94 - Gvineja-Bisao (GW) GUINEA BISSAU
+95 - Gvajana (GY) GUYANA
+96 - Haiti (HT) HAITI
+97 - Honduras (HN) HONDURAS
+99 - Mađarska (HU) HUNGARY
+100 - Island (IS) ICELAND
+101 - Indija (IN) INDIA
+102 - Indonezija (ID) INDONESIA
+103 - Iran (IR) IRAN
+104 - Irak (IQ) IRAQ
+105 - Irska (IE) IRELAND
+107 - Izrael (IL) ISRAEL
+108 - Italija (IT) ITALY
+109 - Jamajka (JM) JAMAICA
+110 - Japan (JP) JAPAN
+112 - Jordan (JO) JORDAN
+113 - Kazahstan (KZ) KAZAKHSTAN
+114 - Kenija (KE) KENYA
+115 - Kiribati (KI) KIRIBATI
+117 - Južna Koreja (KR) KOREA REPUBLIC
+116 - Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
+119 - Kuvajt (KW) KUWAIT
+120 - Kirgistan (KG) KYRGYZSTAN
+121 - Laos (LA) LAOS
+122 - Letonija (LV) LATVIA
+123 - Liban (LB) LEBANON
+124 - Lesoto (LS) LESOTHO
+125 - Liberija (LR) LIBERIA
+126 - Libija (LY) LIBYAN ARAB JAMAHIRIYA
+127 - Lihtenštajn (LI) LIECHTENSTEIN
+128 - Litvanija (LT) LITHUANIA
+129 - Luksemburg (LU) LUXEMBOURG
+131 - Madagaskar (MG) MADAGASCAR
+132 - Malavi (MW) MALAWI
+133 - Malezija (MY) MALAYSIA
+134 - Maldivi (MV) MALDIVES
+135 - Mali (ML) MALI
+136 - Malta (MT) MALTA
+137 - Maršalska Ostrva (MH) MARSHALL ISLANDS
+139 - Mauritanija (MR) MAURITANIA
+140 - Mauricijus (MU) MAURITIUS
+142 - Meksiko (MX) MEXICO
+144 - Moldavija (MD) MOLDOVA
+145 - Monako (MC) MONACO
+146 - Mongolija (MN) MONGOLIA
+147 - Crna Gora (ME) MONTENEGRO
+149 - Maroko (MA) MOROCCO
+150 - Mozambik (MZ) MOZAMBIQUE
+151 - Mianmar (MM) MYANMAR
+152 - Namibija (NA) NAMIBIA
+153 - Nauru (NR) NAURU
+154 - Nepal (NP) NEPAL
+155 - Holandija (NL) NETHERLANDS
+13 - Aruba (AW) ARUBA
+157 - Novi Zeland (NZ) NEW ZEALAND
+52 - Kukova Ostrva (CK) COOK ISLANDS
+222 - Tokelau (TK) TOKELAU ISLANDS
+158 - Nikaragva (NI) NICARAGUA
+159 - Niger (NE) NIGER
+160 - Nigerija (NG) NIGERIA
+164 - Sjeverna Makedonija (MK) NORTH MACEDONIA
+165 - Norveška (NO) NORWAY
+166 - Oman (OM) OMAN
+167 - Pakistan (PK) PAKISTAN
+168 - Palau (PW) PALAU
+170 - Panama Rep. (PA) PANAMA
+171 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+172 - Paragvaj (PY) PARAGUAY
+173 - Peru (PE) PERU
+174 - Filipini (PH) PHILIPPINES
+176 - Poljska (PL) POLAND
+177 - Portugalija (PT) PORTUGAL
+179 - Katar (QA) QATAR
+181 - Rumunija (RO) ROMANIA
+182 - Rusija (RU) RUSSIAN FEDERATION
+183 - Ruanda (RW) RWANDA
+187 - Sveta Lucija (LC) SAINT LUCIA
 Sv. Vinsent I Grenadini (VC) SAINT VINCENT & GRENADINES
-Zapadna Samoa (WS) SAMOA (Western Samoa)
-San Marino (SM) SAN MARINO
-Sv. Toma I Principe (ST) SAO TOME & PRINCIPE
-Saudijska Arabija (SA) SAUDI ARABIA
-Senegal (SN) SENEGAL
-Srbija (RS) SERBIA
-Sejšelska Ostrva (SC) SEYCHELLES
-Siera Leone (SL) SIERRA LEONE
-Singapur (SG) SINGAPORE
-Slovačka (SK) SLOVAKIA
-Slovenija (SI) SLOVENIA
-Solomonska Ostrva (SB) SOLOMON ISLANDS
-Somalija (SO) SOMALIA
-Južnoafrička Republika (ZA) SOUTH AFRICA
-Španija (ES) SPAIN
-Šri Lanka (LK) SRI LANKA
+191 - Zapadna Samoa (WS) SAMOA (Western Samoa)
+192 - San Marino (SM) SAN MARINO
+193 - Sv. Toma I Principe (ST) SAO TOME & PRINCIPE
+194 - Saudijska Arabija (SA) SAUDI ARABIA
+195 - Senegal (SN) SENEGAL
+196 - Srbija (RS) SERBIA
+197 - Sejšelska Ostrva (SC) SEYCHELLES
+198 - Siera Leone (SL) SIERRA LEONE
+199 - Singapur (SG) SINGAPORE
+201 - Slovačka (SK) SLOVAKIA
+202 - Slovenija (SI) SLOVENIA
+203 - Solomonska Ostrva (SB) SOLOMON ISLANDS
+204 - Somalija (SO) SOMALIA
+205 - Južnoafrička Republika (ZA) SOUTH AFRICA
+208 - Španija (ES) SPAIN
+209 - Šri Lanka (LK) SRI LANKA
 Sv. Kristofer I Nevis (KN) ST. CHRISTOPHER & NEVIS
-Sudan (SD) SUDAN
-Surinam (SR) SURINAME
+210 - Sudan (SD) SUDAN
+211 - Surinam (SR) SURINAME
 Svaziland (SZ) SWAZILAND (Eswatini)
-Švedska (SE) SWEDEN
-Švajcarska (CH) SWITZERLAND
-Sirija (SY) SYRIAN Arab Rep.
-Tajvan (TW) TAIWAN, China
-Tadžikistan (TJ) TAJIKISTAN
-Tanzanija (TZ) TANZANIE
-Tajland (TH) THAILAND
-Istočni Timor (TL) TIMOR – East Timor Rep.dem.
-Togo (TG) TOGO
-Tonga (TO) TONGA
-Trinidad i Tobago (TT) TRINIDAD & TOBAGO
-Tunis (TN) TUNISIA
-Turska (TR) TURKEY
-Turkmenistan (TM) TURKMENISTAN
-Tuvalu (TV) TUVALU
-Uganda (UG) UGANDA
-Ukrajina (UA) UKRAINE
-Ujedinjeni Arapski Emirati (AE) UNITED ARAB EMIRATES
-SAD (US) UNITED STATES OF AMERICA
-Devičanska Ostrva USA (VI) VIRGIN ISLANDS US
-Guam (GU) GUAM ISLAND
-Portoriko (PR) PUERTO RICO
-Marijanska Ostrva (MP) MARIANA ISLANDS
-Urugvaj (UY) URUGUAY
-Uzbekistan (UZ) UZBEKISTAN
-Vanuatu (VU) VANUATU
-Vatikan (VA) VATICAN
-Venecuela (VE) VENEZUELA
-Vijetnam (VN) VIETNAM
-Jemen (YE) YEMEN
-Zambija (ZM) ZAMBIA
-Zimbabve (ZW) ZIMBABWE
+213 - Švedska (SE) SWEDEN
+214 - Švajcarska (CH) SWITZERLAND
+215 - Sirija (SY) SYRIAN Arab Rep.
+216 - Tajvan (TW) TAIWAN, China
+217 - Tadžikistan (TJ) TAJIKISTAN
+218 - Tanzanija (TZ) TANZANIE
+219 - Tajland (TH) THAILAND
+220 - Istočni Timor (TL) TIMOR – East Timor Rep.dem.
+221 - Togo (TG) TOGO
+223 - Tonga (TO) TONGA
+224 - Trinidad i Tobago (TT) TRINIDAD & TOBAGO
+225 - Tunis (TN) TUNISIA
+226 - Turska (TR) TURKEY
+227 - Turkmenistan (TM) TURKMENISTAN
+229 - Tuvalu (TV) TUVALU
+230 - Uganda (UG) UGANDA
+231 - Ukrajina (UA) UKRAINE
+232 - Ujedinjeni Arapski Emirati (AE) UNITED ARAB EMIRATES
+235 - SAD (US) UNITED STATES OF AMERICA
+100 - Devičanska Ostrva USA (VI) VIRGIN ISLANDS US
+100 - Guam (GU) GUAM ISLAND
+178 - Portoriko (PR) PUERTO RICO
+100 - Marijanska Ostrva (MP) MARIANA ISLANDS
+234 - Urugvaj (UY) URUGUAY
+237 - Uzbekistan (UZ) UZBEKISTAN
+238 - Vanuatu (VU) VANUATU
+239 - Vatikan (VA) VATICAN
+240 - Venecuela (VE) VENEZUELA
+241 - Vijetnam (VN) VIETNAM
+246 - Jemen (YE) YEMEN
+247 - Zambija (ZM) ZAMBIA
+248 - Zimbabve (ZW) ZIMBABWE
 
 SUSPENDOVANE ZEMLJE
 Ukupno: 26
 
-Američka Samoa (AS) AMERICAN SAMOA
-Bahrein (BH) BAHRAIN
-Butan (BT) BHUTAN
-Angvila (AI) ANGUILLA
-Monserat (MS) MONTSERRAT
-Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
+5 - Američka Samoa (AS) AMERICAN SAMOA
+18 - Bahrein (BH) BAHRAIN
+26 - Butan (BT) BHUTAN
+8 - Angvila (AI) ANGUILLA
+148 - Monserat (MS) MONTSERRAT
+100 - Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
 Sv. Helena (SH) SAINT HELENA
 Ascension (AC) ASCENSION
 Tristan da Kunja (TA) TRISTAN da CUNHA
-Haiti (HT) HAITI
-Iran (IR) IRAN
-Irak (IQ) IRAQ
-Kiribati (KI) KIRIBATI
-Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
-Kuvajt (KW) KUWAIT
-Liban (LB) LEBANON
-Libija (LY) LIBYAN ARAB JAMAHIRIYA
-Nauru (NR) NAURU
-Kukova Ostrva (CK) COOK ISLANDS
-Papua Nova Gvineja (PG) PAPUA NEW GUINEA
-Somalija (SO) SOMALIA
-Sudan (SD) SUDAN
-Sirija (SY) SYRIAN Arab Rep.
-Istočni Timor (TL) TIMOR – East Timor Rep.dem.
-Venecuela (VE) VENEZUELA
-Jemen (YE) YEMEN
+96 - Haiti (HT) HAITI
+103 - Iran (IR) IRAN
+104 - Irak (IQ) IRAQ
+115 - Kiribati (KI) KIRIBATI
+116 - Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
+119 - Kuvajt (KW) KUWAIT
+123 - Liban (LB) LEBANON
+126 - Libija (LY) LIBYAN ARAB JAMAHIRIYA
+153 - Nauru (NR) NAURU
+52 - Kukova Ostrva (CK) COOK ISLANDS
+171 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+204 - Somalija (SO) SOMALIA
+210 - Sudan (SD) SUDAN
+215 - Sirija (SY) SYRIAN Arab Rep.
+220 - Istočni Timor (TL) TIMOR – East Timor Rep.dem.
+240 - Venecuela (VE) VENEZUELA
+246 - Jemen (YE) YEMEN
