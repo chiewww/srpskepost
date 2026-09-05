@@ -3,264 +3,264 @@ POŠTA SRPSKE - MEĐUNARODNE POŠILJKE
 SVE ZEMLJE
 Ukupno: 231
 
-Avganistan
-Albanija
-Alžir
-Američka Samoa
-Andora
-Angola
-Antigva i Barbuda
-Argentina
-Jermenija
-Australija
-Božićno Ostrvo
-Kokosova Ostrva
-Norfolk Ostrva
-Austrija
-Azerbejdžan
-Bahami
-Bahrein
-Bangladeš
-Barbados
-Belorusija
-Belgija
-Beliz
-Benin
-Butan
-Bolivija
-Botsvana
-Brazil
-Brunej Darusalam
-Bugarska
-Burkina Faso
-Burundi
-Kambodža
-Kamerun
-Kanada
-Zelenortska Ostrva
-Centralnoafrička Republika
-Čad
-Čile
-Kina
-Hong Kong
-Makao
-Kolumbija
-Komori
-Kongo Dem. Rep.
-Kongo
-Kostarika
-Obala Slonovače
-Hrvatska
-Kuba
-Kipar
-Češka Republika
-Danska
-Farska Ostrva
-Grenland
-Džibuti
-Dominika
-Dominikanska Republika
-Ekvador
-Egipat
-El Salvador
-Ekvatorialna Gvinea
-Eritreja
-Estonija
-Etiopija
-Fidži
-Finska
-Francuska
-Francuska Gvajana
-Francuska Polinezija
-Gvadalupe
-Martinik
-Majot
-Nova Kaledonija
-Reunion
-Sv. Petar i Mikelon
-Valis i Futuna
-Gabon
-Gambija
-Gruzija
-Njemačka
-Gana
-Velika Britanija
-Angvila
-Bermudska Ostrva
-Britanska Devičanska Ostrva
-Folklandska Ostrva
-Gibraltar
-Gernzi –
-Džersi –
-Kajman
-Monserat
-Man
-Turk i Kaikos
-Pitkern
-Sv. Helena
-Ascension
-Tristan da Kunja
-Grčka
-Grenada
-Gvatemala
-Gvineja
-Gvineja-Bisao
-Gvajana
-Haiti
-Honduras
-Mađarska
-Island
-Indija
-Indonezija
-Iran
-Irak
-Irska
-Izrael
-Italija
-Jamajka
-Japan
-Jordan
-Kazahstan
-Kenija
-Kiribati
-Južna Koreja
-Sjeverna Koreja
-Kuvajt
-Kirgistan
-Laos
-Letonija
-Liban
-Lesoto
-Liberija
-Libija
-Lihtenštajn
-Litvanija
-Luksemburg
-Madagaskar
-Malavi
-Malezija
-Maldivi
-Mali
-Malta
-Maršalska Ostrva
-Mauritanija
-Mauricijus
-Meksiko
-Moldavija
-Monako
-Mongolija
-Crna Gora
-Maroko
-Mozambik
-Mianmar
-Namibija
-Nauru
-Nepal
-Holandija
-Aruba
-Novi Zeland
-Kukova Ostrva
-Tokelau
-Nikaragva
-Niger
-Nigerija
-Sjeverna Makedonija
-Norveška
-Oman
-Pakistan
-Palau
-Panama Rep.
-Papua Nova Gvineja
-Paragvaj
-Peru
-Filipini
-Poljska
-Portugalija
-Katar
-Rumunija
-Rusija
-Ruanda
-Sveta Lucija
-Sv. Vinsent I Grenadini
-Zapadna Samoa
-San Marino
-Sv. Toma I Principe
-Saudijska Arabija
-Senegal
-Srbija
-Sejšelska Ostrva
-Siera Leone
-Singapur
-Slovačka
-Slovenija
-Solomonska Ostrva
-Somalija
-Južnoafrička Republika
-Španija
-Šri Lanka
-Sv. Kristofer I Nevis
-Sudan
-Surinam
-Svaziland
-Švedska
-Švajcarska
-Sirija
-Tajvan
-Tadžikistan
-Tanzanija
-Tajland
-Istočni Timor
-Togo
-Tonga
-Trinidad i Tobago
-Tunis
-Turska
-Turkmenistan
-Tuvalu
-Uganda
-Ukrajina
-Ujedinjeni Arapski Emirati
-SAD
-Devičanska Ostrva USA
-Guam
-Portoriko
-Marijanska Ostrva
-Urugvaj
-Uzbekistan
-Vanuatu
-Vatikan
-Venecuela
-Vijetnam
-Jemen
-Zambija
-Zimbabve
+Avganistan (AF) AFGANISTAN
+Albanija (AL) ALBANIA
+Alžir (DZ) ALGERIA
+Američka Samoa (AS) AMERICAN SAMOA
+Andora (AD) ANDORRA
+Angola (AO) ANGOLA
+Antigva i Barbuda (AG) ANTIGUA & BARBUDA
+Argentina (AR) ARGENTINA
+Jermenija (AM) ARMENIA
+Australija (AU) AUSTRALIA
+Božićno Ostrvo (CX) CHRISTMAS ISLAND
+Kokosova Ostrva (CC) COCOS ISLAND
+Norfolk Ostrva (NF) NORFOLK ISLAND
+Austrija (AT) AUSTRIA
+Azerbejdžan (AZ) AZERBAIJAN
+Bahami (BS) BAHAMAS
+Bahrein (BH) BAHRAIN
+Bangladeš (BD) BANGLADESH
+Barbados (BB) BARBADOS
+Belorusija (BY) BELARUS
+Belgija (BE) BELGIUM
+Beliz (BZ) BELIZE
+Benin (BJ) BENIN
+Butan (BT) BHUTAN
+Bolivija (BO) BOLIVIA
+Botsvana (BW) BOTSWANA
+Brazil (BR) BRAZIL
+Brunej Darusalam (BN) BRUNEI DARUSSALAM
+Bugarska (BG) BULGARIA
+Burkina Faso (BF) BURKINA FASO
+Burundi (BI) BURUNDI
+Kambodža (KH) CAMBODIA
+Kamerun (CM) CAMEROON
+Kanada (CA) CANADA
+Zelenortska Ostrva (CV) CAPE VERDE
+Centralnoafrička Republika (CF) CENTRAL AFRICAN REPUBLIC
+Čad (TD) CHAD
+Čile (CL) CHILE
+Kina (CN) CHINA
+Hong Kong (HK) HONG KONG
+Makao (MO) MACAU, China
+Kolumbija (CO) COLOMBIA
+Komori (KM) COMOROS
+Kongo Dem. Rep.(CD) CONGO DEM. REPUBLIC
+Kongo (CG) CONGO Rep.
+Kostarika (CR) COSTA RICA
+Obala Slonovače (CI) COTE D’IVOIRE
+Hrvatska (HR) CROATIA
+Kuba (CU) CUBA
+Kipar (CY) CYPRUS
+Češka Republika (CZ) CZECH REPUBLIC
+Danska (DK) DENMARK
+Farska Ostrva (FO) FAROE ISLANDS
+Grenland (GL) GREENLAND
+Džibuti (DJ) DJIBOUTI
+Dominika (DM) DOMINICA
+Dominikanska Republika (DO) DOMINICAN REPUBLIC
+Ekvador (EC) ECUADOR
+Egipat (EG) EGYPT
+El Salvador (SV) EL SALVADOR
+Ekvatorialna Gvinea (GQ) EQUATORIAL GUINEA
+Eritreja (ER) ERITREA
+Estonija (EE) ESTONIA
+Etiopija (ET) ETHIOPIA
+Fidži (FJ) FIJI
+Finska (FI) FINLAND
+Francuska (FR) FRANCE
+Francuska Gvajana (GF) FRENCH GUIANA
+Francuska Polinezija (PF) FRENCH POLYNESIA
+Gvadalupe (GP) GUADELOUPE
+Martinik (MQ) MARTINIQUE
+Majot (YT) MAYOTTE
+Nova Kaledonija (NC) NEW CALEDONIA
+Reunion (RE) REUNION
+Sv. Petar i Mikelon (PM) SAINT PIERRE & MIQUELON
+Valis i Futuna (WF) WALLIS & FUTUNA
+Gabon (GA) GABON
+Gambija (GM) GAMBIA
+Gruzija (GE) GEORGIA
+Njemačka (DE) GERMANY
+Gana (GH) GHANA
+Velika Britanija (GB) GREAT BRITAIN
+Angvila (AI) ANGUILLA
+Bermudska Ostrva (BM) BERMUDA
+Britanska Devičanska Ostrva (VG) BRITISH VIRGIN ISLANDS
+Folklandska Ostrva (FK) FALKLAND ISLANDS
+Gibraltar (GI) GIBRALTAR
+Gernzi – (GB) GUERNSEY
+Džersi – (GB) JERSEY
+Kajman (KY) CAYMAN ISLANDS
+Monserat (MS) MONTSERRAT
+Man (GB) MAN – ISLE OF MAN
+Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
+Pitkern (PN) PITCAIRN
+Sv. Helena (SH) SAINT HELENA
+Ascension (AC) ASCENSION
+Tristan da Kunja (TA) TRISTAN da CUNHA
+Grčka (GR) GREECE
+Grenada (GD) GRENADA
+Gvatemala (GT) GUATEMALA
+Gvineja (GN) GUINEA
+Gvineja-Bisao (GW) GUINEA BISSAU
+Gvajana (GY) GUYANA
+Haiti (HT) HAITI
+Honduras (HN) HONDURAS
+Mađarska (HU) HUNGARY
+Island (IS) ICELAND
+Indija (IN) INDIA
+Indonezija (ID) INDONESIA
+Iran (IR) IRAN
+Irak (IQ) IRAQ
+Irska (IE) IRELAND
+Izrael (IL) ISRAEL
+Italija (IT) ITALY
+Jamajka (JM) JAMAICA
+Japan (JP) JAPAN
+Jordan (JO) JORDAN
+Kazahstan (KZ) KAZAKHSTAN
+Kenija (KE) KENYA
+Kiribati (KI) KIRIBATI
+Južna Koreja (KR) KOREA REPUBLIC
+Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
+Kuvajt (KW) KUWAIT
+Kirgistan (KG) KYRGYZSTAN
+Laos (LA) LAOS
+Letonija (LV) LATVIA
+Liban (LB) LEBANON
+Lesoto (LS) LESOTHO
+Liberija (LR) LIBERIA
+Libija (LY) LIBYAN ARAB JAMAHIRIYA
+Lihtenštajn (LI) LIECHTENSTEIN
+Litvanija (LT) LITHUANIA
+Luksemburg (LU) LUXEMBOURG
+Madagaskar (MG) MADAGASCAR
+Malavi (MW) MALAWI
+Malezija (MY) MALAYSIA
+Maldivi (MV) MALDIVES
+Mali (ML) MALI
+Malta (MT) MALTA
+Maršalska Ostrva (MH) MARSHALL ISLANDS
+Mauritanija (MR) MAURITANIA
+Mauricijus (MU) MAURITIUS
+Meksiko (MX) MEXICO
+Moldavija (MD) MOLDOVA
+Monako (MC) MONACO
+Mongolija (MN) MONGOLIA
+Crna Gora (ME) MONTENEGRO
+Maroko (MA) MOROCCO
+Mozambik (MZ) MOZAMBIQUE
+Mianmar (MM) MYANMAR
+Namibija (NA) NAMIBIA
+Nauru (NR) NAURU
+Nepal (NP) NEPAL
+Holandija (NL) NETHERLANDS
+Aruba (AW) ARUBA
+Novi Zeland (NZ) NEW ZEALAND
+Kukova Ostrva (CK) COOK ISLANDS
+Tokelau (TK) TOKELAU ISLANDS
+Nikaragva (NI) NICARAGUA
+Niger (NE) NIGER
+Nigerija (NG) NIGERIA
+Sjeverna Makedonija (MK) NORTH MACEDONIA
+Norveška (NO) NORWAY
+Oman (OM) OMAN
+Pakistan (PK) PAKISTAN
+Palau (PW) PALAU
+Panama Rep. (PA) PANAMA
+Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+Paragvaj (PY) PARAGUAY
+Peru (PE) PERU
+Filipini (PH) PHILIPPINES
+Poljska (PL) POLAND
+Portugalija (PT) PORTUGAL
+Katar (QA) QATAR
+Rumunija (RO) ROMANIA
+Rusija (RU) RUSSIAN FEDERATION
+Ruanda (RW) RWANDA
+Sveta Lucija (LC) SAINT LUCIA
+Sv. Vinsent I Grenadini (VC) SAINT VINCENT & GRENADINES
+Zapadna Samoa (WS) SAMOA (Western Samoa)
+San Marino (SM) SAN MARINO
+Sv. Toma I Principe (ST) SAO TOME & PRINCIPE
+Saudijska Arabija (SA) SAUDI ARABIA
+Senegal (SN) SENEGAL
+Srbija (RS) SERBIA
+Sejšelska Ostrva (SC) SEYCHELLES
+Siera Leone (SL) SIERRA LEONE
+Singapur (SG) SINGAPORE
+Slovačka (SK) SLOVAKIA
+Slovenija (SI) SLOVENIA
+Solomonska Ostrva (SB) SOLOMON ISLANDS
+Somalija (SO) SOMALIA
+Južnoafrička Republika (ZA) SOUTH AFRICA
+Španija (ES) SPAIN
+Šri Lanka (LK) SRI LANKA
+Sv. Kristofer I Nevis (KN) ST. CHRISTOPHER & NEVIS
+Sudan (SD) SUDAN
+Surinam (SR) SURINAME
+Svaziland (SZ) SWAZILAND (Eswatini)
+Švedska (SE) SWEDEN
+Švajcarska (CH) SWITZERLAND
+Sirija (SY) SYRIAN Arab Rep.
+Tajvan (TW) TAIWAN, China
+Tadžikistan (TJ) TAJIKISTAN
+Tanzanija (TZ) TANZANIE
+Tajland (TH) THAILAND
+Istočni Timor (TL) TIMOR – East Timor Rep.dem.
+Togo (TG) TOGO
+Tonga (TO) TONGA
+Trinidad i Tobago (TT) TRINIDAD & TOBAGO
+Tunis (TN) TUNISIA
+Turska (TR) TURKEY
+Turkmenistan (TM) TURKMENISTAN
+Tuvalu (TV) TUVALU
+Uganda (UG) UGANDA
+Ukrajina (UA) UKRAINE
+Ujedinjeni Arapski Emirati (AE) UNITED ARAB EMIRATES
+SAD (US) UNITED STATES OF AMERICA
+Devičanska Ostrva USA (VI) VIRGIN ISLANDS US
+Guam (GU) GUAM ISLAND
+Portoriko (PR) PUERTO RICO
+Marijanska Ostrva (MP) MARIANA ISLANDS
+Urugvaj (UY) URUGUAY
+Uzbekistan (UZ) UZBEKISTAN
+Vanuatu (VU) VANUATU
+Vatikan (VA) VATICAN
+Venecuela (VE) VENEZUELA
+Vijetnam (VN) VIETNAM
+Jemen (YE) YEMEN
+Zambija (ZM) ZAMBIA
+Zimbabve (ZW) ZIMBABWE
 
 SUSPENDOVANE ZEMLJE
 Ukupno: 26
 
-Američka Samoa
-Bahrein
-Butan
-Angvila
-Monserat
-Turk i Kaikos
-Sv. Helena
-Ascension
-Tristan da Kunja
-Haiti
-Iran
-Irak
-Kiribati
-Sjeverna Koreja
-Kuvajt
-Liban
-Libija
-Nauru
-Kukova Ostrva
-Papua Nova Gvineja
-Somalija
-Sudan
-Sirija
-Istočni Timor
-Venecuela
-Jemen
+Američka Samoa (AS) AMERICAN SAMOA
+Bahrein (BH) BAHRAIN
+Butan (BT) BHUTAN
+Angvila (AI) ANGUILLA
+Monserat (MS) MONTSERRAT
+Turk i Kaikos (TC) TURKS & CAICOS ISLANDS
+Sv. Helena (SH) SAINT HELENA
+Ascension (AC) ASCENSION
+Tristan da Kunja (TA) TRISTAN da CUNHA
+Haiti (HT) HAITI
+Iran (IR) IRAN
+Irak (IQ) IRAQ
+Kiribati (KI) KIRIBATI
+Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
+Kuvajt (KW) KUWAIT
+Liban (LB) LEBANON
+Libija (LY) LIBYAN ARAB JAMAHIRIYA
+Nauru (NR) NAURU
+Kukova Ostrva (CK) COOK ISLANDS
+Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+Somalija (SO) SOMALIA
+Sudan (SD) SUDAN
+Sirija (SY) SYRIAN Arab Rep.
+Istočni Timor (TL) TIMOR – East Timor Rep.dem.
+Venecuela (VE) VENEZUELA
+Jemen (YE) YEMEN
