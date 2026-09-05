@@ -1,113 +1,81 @@
 SVE ZEMLJE
-UKUPNO: 232
+UKUPNO: 193
 
-Odredišna zemlja srpski naziv / kod / engl.naziv
 1 - Avganistan (AF) AFGANISTAN
-Albanija (AL) ALBANIA
-Alžir (DZ) ALGERIA
-191 - Američka Samoa (AS) AMERICAN SAMOA
-Andora (AD) ANDORRA
-Angola (AO) ANGOLA
-Antigva i Barbuda (AG) ANTIGUA & BARBUDA
-Argentina (AR) ARGENTINA
-Jermenija (AM) ARMENIA
-Australija (AU) AUSTRALIA
-Pismonosne, paketske
-Pismonosne, paketske
-Pismonosne, paketske
-Austrija (AT) AUSTRIA
-Azerbejdžan (AZ) AZERBAIJAN
-Bahami (BS) BAHAMAS
-Bahrein (BH) BAHRAIN
-Bangladeš (BD) BANGLADESH
-Barbados (BB) BARBADOS
-182 - Belorusija (BY) BELARUS
-Belgija (BE) BELGIUM
-Beliz (BZ) BELIZE
-Benin (BJ) BENIN
-Butan (BT) BHUTAN
-Bolivija (BO) BOLIVIA
-Botsvana (BW) BOTSWANA
-Brazil (BR) BRAZIL
-Brunej Darusalam (BN) BRUNEI DARUSSALAM
-Bugarska (BG) BULGARIA
-Burkina Faso (BF) BURKINA FASO
-Burundi (BI) BURUNDI
-Kambodža (KH) CAMBODIA
-Kamerun (CM) CAMEROON
-Kanada (CA) CANADA
+3 - Albanija (AL) ALBANIA
+4 - Alžir (DZ) ALGERIA
+5 - Američka Samoa (AS) AMERICAN SAMOA
+6 - Andora (AD) ANDORRA
+7 - Angola (AO) ANGOLA
+10 - Antigva i Barbuda (AG) ANTIGUA & BARBUDA
+11 - Argentina (AR) ARGENTINA
+12 - Jermenija (AM) ARMENIA
+14 - Australija (AU) AUSTRALIA
+15 - Austrija (AT) AUSTRIA
+16 - Azerbejdžan (AZ) AZERBAIJAN
+17 - Bahami (BS) BAHAMAS
+18 - Bahrein (BH) BAHRAIN
+19 - Bangladeš (BD) BANGLADESH
+20 - Barbados (BB) BARBADOS
+21 - Belorusija (BY) BELARUS
+22 - Belgija (BE) BELGIUM
+23 - Beliz (BZ) BELIZE
+24 - Benin (BJ) BENIN
+26 - Butan (BT) BHUTAN
+27 - Bolivija (BO) BOLIVIA
+30 - Botsvana (BW) BOTSWANA
+31 - Brazil (BR) BRAZIL
+33 - Brunej Darusalam (BN) BRUNEI DARUSSALAM
+34 - Bugarska (BG) BULGARIA
+35 - Burkina Faso (BF) BURKINA FASO
+36 - Burundi (BI) BURUNDI
+38 - Kambodža (KH) CAMBODIA
+39 - Kamerun (CM) CAMEROON
+40 - Kanada (CA) CANADA
 37 - Zelenortska Ostrva (CV) CAPE VERDE
-Centralnoafrička Republika (CF) CENTRAL AFRICAN REPUBLIC
-Čad (TD) CHAD
-Čile (CL) CHILE
-Kina (CN) CHINA
-Pismonosne, paketske
-Pismonosne, avionski paketi
-Kolumbija (CO) COLOMBIA
-Komori (KM) COMOROS
-Kongo Dem. Rep.(CD) CONGO DEM. REPUBLIC
-Kongo (CG) CONGO Rep.
+42 - Centralnoafrička Republika (CF) CENTRAL AFRICAN REPUBLIC
+43 - Čad (TD) CHAD
+44 - Čile (CL) CHILE
+45 - Kina (CN) CHINA
+48 - Kolumbija (CO) COLOMBIA
+49 - Komori (KM) COMOROS
+51 - Kongo Dem. Rep.(CD) CONGO DEM. REPUBLIC
+50 - Kongo (CG) CONGO Rep.
 53 - Kostarika (CR) COSTA RICA
 54 - Obala Slonovače (CI) COTE D’IVOIRE
-Hrvatska (HR) CROATIA
-Kuba (CU) CUBA
-Kipar (CY) CYPRUS
+55 - Hrvatska (HR) CROATIA
+56 - Kuba (CU) CUBA
+58 - Kipar (CY) CYPRUS
 59 - Češka Republika (CZ) CZECH REPUBLIC
-Danska (DK) DENMARK
-Pismonosne, paketske
-Pismonosne, paketske
-Džibuti (DJ) DJIBOUTI
-Dominika (DM) DOMINICA
-Dominikanska Republika (DO) DOMINICAN REPUBLIC
-Ekvador (EC) ECUADOR
-Egipat (EG) EGYPT
+60 - Danska (DK) DENMARK
+61 - Džibuti (DJ) DJIBOUTI
+62 - Dominika (DM) DOMINICA
+63 - Dominikanska Republika (DO) DOMINICAN REPUBLIC
+64 - Ekvador (EC) ECUADOR
+65 - Egipat (EG) EGYPT
 66 - El Salvador (SV) EL SALVADOR
-Ekvatorialna Gvinea (GQ) EQUATORIAL GUINEA
-Eritreja (ER) ERITREA
-Estonija (EE) ESTONIA
-Etiopija (ET) ETHIOPIA
-Fidži (FJ) FIJI
-Finska (FI) FINLAND
-Francuska (FR) FRANCE
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, paketske
-Gabon (GA) GABON
+67 - Ekvatorialna Gvinea (GQ) EQUATORIAL GUINEA
+68 - Eritreja (ER) ERITREA
+69 - Estonija (EE) ESTONIA
+71 - Etiopija (ET) ETHIOPIA
+74 - Fidži (FJ) FIJI
+75 - Finska (FI) FINLAND
+76 - Francuska (FR) FRANCE
+80 - Gabon (GA) GABON
 81 - Gambija (GM) GAMBIA
 82 - Gruzija (GE) GEORGIA
 83 - Njemačka (DE) GERMANY
-Gana (GH) GHANA
+84 - Gana (GH) GHANA
 233 - Velika Britanija (GB) GREAT BRITAIN
-STOP
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, avionski paketi
-Pismonosne, paketske
-Pismonosne, paketske
-Pismonosne
-STOP
-Pismonosne, paketske
-STOP
-Pismonosne, paketske
-Avionski paketi
-Avionski paketi
-STOP
-Grčka (GR) GREECE
+86 - Grčka (GR) GREECE
 88 - Grenada (GD) GRENADA
-Gvatemala (GT) GUATEMALA
+91 - Gvatemala (GT) GUATEMALA
 93 - Gvineja (GN) GUINEA
 94 - Gvineja-Bisao (GW) GUINEA BISSAU
 95 - Gvajana (GY) GUYANA
-Haiti (HT) HAITI
-Honduras (HN) HONDURAS
-Mađarska (HU) HUNGARY
+96 - Haiti (HT) HAITI
+97 - Honduras (HN) HONDURAS
+99 - Mađarska (HU) HUNGARY
 100 - Island (IS) ICELAND
 101 - Indija (IN) INDIA
 102 - Indonezija (ID) INDONESIA
@@ -118,15 +86,15 @@ Mađarska (HU) HUNGARY
 108 - Italija (IT) ITALY
 109 - Jamajka (JM) JAMAICA
 110 - Japan (JP) JAPAN
-Jordan (JO) JORDAN
+112 - Jordan (JO) JORDAN
 113 - Kazahstan (KZ) KAZAKHSTAN
 114 - Kenija (KE) KENYA
-Kiribati (KI) KIRIBATI
+115 - Kiribati (KI) KIRIBATI
 117 - Južna Koreja (KR) KOREA REPUBLIC
 116 - Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
-Kuvajt (KW) KUWAIT
+120 - Kuvajt (KW) KUWAIT
 120 - Kirgistan (KG) KYRGYZSTAN
-Laos (LA) LAOS
+121 - Laos (LA) LAOS
 122 - Letonija (LV) LATVIA
 123 - Liban (LB) LEBANON
 124 - Lesoto (LS) LESOTHO
@@ -135,48 +103,45 @@ Laos (LA) LAOS
 127 - Lihtenštajn (LI) LIECHTENSTEIN
 128 - Litvanija (LT) LITHUANIA
 129 - Luksemburg (LU) LUXEMBOURG
-Madagaskar (MG) MADAGASCAR
-Malavi (MW) MALAWI
-Malezija (MY) MALAYSIA
-Maldivi (MV) MALDIVES
-Mali (ML) MALI
-Malta (MT) MALTA
-100 - Maršalska Ostrva (MH) MARSHALL ISLANDS
-Mauritanija (MR) MAURITANIA
-Mauricijus (MU) MAURITIUS
-Meksiko (MX) MEXICO
-Moldavija (MD) MOLDOVA
-Monako (MC) MONACO
-Mongolija (MN) MONGOLIA
-Crna Gora (ME) MONTENEGRO
-Maroko (MA) MOROCCO
-Mozambik (MZ) MOZAMBIQUE
-Mianmar (MM) MYANMAR
+131 - Madagaskar (MG) MADAGASCAR
+132 - Malavi (MW) MALAWI
+133 - Malezija (MY) MALAYSIA
+134 - Maldivi (MV) MALDIVES
+135 - Mali (ML) MALI
+136 - Malta (MT) MALTA
+137 - Maršalska Ostrva (MH) MARSHALL ISLANDS
+139 - Mauritanija (MR) MAURITANIA
+140 - Mauricijus (MU) MAURITIUS
+142 - Meksiko (MX) MEXICO
+144 - Moldavija (MD) MOLDOVA
+145 - Monako (MC) MONACO
+146 - Mongolija (MN) MONGOLIA
+147 - Crna Gora (ME) MONTENEGRO
+149 - Maroko (MA) MOROCCO
+150 - Mozambik (MZ) MOZAMBIQUE
+151 - Mianmar (MM) MYANMAR
 152 - Namibija (NA) NAMIBIA
 153 - Nauru (NR) NAURU
-Nepal (NP) NEPAL
-Holandija (NL) NETHERLANDS
-Pismonosne, avionski paketi
-2 - Novi Zeland (NZ) NEW ZEALAND
-Paketske
-Pismonosne, paketske
+154 - Nepal (NP) NEPAL
+155 - Holandija (NL) NETHERLANDS
+157 - Novi Zeland (NZ) NEW ZEALAND
 158 - Nikaragva (NI) NICARAGUA
 159 - Niger (NE) NIGER
-159 - Nigerija (NG) NIGERIA
+160 - Nigerija (NG) NIGERIA
 164 - Sjeverna Makedonija (MK) NORTH MACEDONIA
-Norveška (NO) NORWAY
+165 - Norveška (NO) NORWAY
 166 - Oman (OM) OMAN
 167 - Pakistan (PK) PAKISTAN
-Palau (PW) PALAU
-Panama Rep. (PA) PANAMA
-93 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+168 - Palau (PW) PALAU
+170 - Panama Rep. (PA) PANAMA
+171 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
 172 - Paragvaj (PY) PARAGUAY
 173 - Peru (PE) PERU
 174 - Filipini (PH) PHILIPPINES
 176 - Poljska (PL) POLAND
-Portugalija (PT) PORTUGAL
-Katar (QA) QATAR
-166 - Rumunija (RO) ROMANIA
+177 - Portugalija (PT) PORTUGAL
+179 - Katar (QA) QATAR
+181 - Rumunija (RO) ROMANIA
 182 - Rusija (RU) RUSSIAN FEDERATION
 183 - Ruanda (RW) RWANDA
 187 - Sveta Lucija (LC) SAINT LUCIA
@@ -187,14 +152,14 @@ Katar (QA) QATAR
 194 - Saudijska Arabija (SA) SAUDI ARABIA
 195 - Senegal (SN) SENEGAL
 196 - Srbija (RS) SERBIA
-Sejšelska Ostrva (SC) SEYCHELLES
-Siera Leone (SL) SIERRA LEONE
+197 - Sejšelska Ostrva (SC) SEYCHELLES
+198 - Siera Leone (SL) SIERRA LEONE
 199 - Singapur (SG) SINGAPORE
 201 - Slovačka (SK) SLOVAKIA
 202 - Slovenija (SI) SLOVENIA
-100 - Solomonska Ostrva (SB) SOLOMON ISLANDS
+203 - Solomonska Ostrva (SB) SOLOMON ISLANDS
 204 - Somalija (SO) SOMALIA
-Južnoafrička Republika (ZA) SOUTH AFRICA
+205 - Južnoafrička Republika (ZA) SOUTH AFRICA
 208 - Španija (ES) SPAIN
 209 - Šri Lanka (LK) SRI LANKA
 186 - Sv. Kristofer I Nevis (KN) ST. CHRISTOPHER & NEVIS
@@ -220,10 +185,6 @@ Južnoafrička Republika (ZA) SOUTH AFRICA
 231 - Ukrajina (UA) UKRAINE
 232 - Ujedinjeni Arapski Emirati (AE) UNITED ARAB EMIRATES
 235 - SAD (US) UNITED STATES OF AMERICA
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
 234 - Urugvaj (UY) URUGUAY
 237 - Uzbekistan (UZ) UZBEKISTAN
 238 - Vanuatu (VU) VANUATU
@@ -235,63 +196,24 @@ Pismonosne (dokumenta samo)
 248 - Zimbabve (ZW) ZIMBABWE
 
 SUSPENDOVANE ZEMLJE
-UKUPNO: 58
+UKUPNO: 19
 
-Odredišna zemlja srpski naziv / kod / engl.naziv
-191 - Američka Samoa (AS) AMERICAN SAMOA
-Pismonosne, paketske
-Pismonosne, paketske
-Pismonosne, paketske
-Bahrein (BH) BAHRAIN
-Butan (BT) BHUTAN
-Pismonosne, paketske
-Pismonosne, avionski paketi
-Pismonosne, paketske
-Pismonosne, paketske
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, paketske
-STOP
-Pismonosne, avionski paketi
-Pismonosne, avionski paketi
-Pismonosne
-Pismonosne, avionski paketi
-Pismonosne, paketske
-Pismonosne, paketske
-Pismonosne
-STOP
-Pismonosne, paketske
-STOP
-Pismonosne, paketske
-Avionski paketi
-Avionski paketi
-STOP
-Haiti (HT) HAITI
+5 - Američka Samoa (AS) AMERICAN SAMOA
+18 - Bahrein (BH) BAHRAIN
+26 - Butan (BT) BHUTAN
+96 - Haiti (HT) HAITI
 103 - Iran (IR) IRAN
 104 - Irak (IQ) IRAQ
-Kiribati (KI) KIRIBATI
+115 - Kiribati (KI) KIRIBATI
 116 - Sjeverna Koreja (KP) KOREA Democrat. Peoples Rep.
-Kuvajt (KW) KUWAIT
+120 - Kuvajt (KW) KUWAIT
 123 - Liban (LB) LEBANON
 126 - Libija (LY) LIBYAN ARAB JAMAHIRIYA
 153 - Nauru (NR) NAURU
-Pismonosne, avionski paketi
-Paketske
-Pismonosne, paketske
-93 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
+171 - Papua Nova Gvineja (PG) PAPUA NEW GUINEA
 204 - Somalija (SO) SOMALIA
 210 - Sudan (SD) SUDAN
 215 - Sirija (SY) SYRIAN Arab Rep.
 220 - Istočni Timor (TL) TIMOR – East Timor Rep.dem.
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
-Pismonosne (dokumenta samo)
 240 - Venecuela (VE) VENEZUELA
 246 - Jemen (YE) YEMEN
