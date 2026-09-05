@@ -1,4 +1,4 @@
-name: Update Pošta Srpske country list
+name:Update Pošta Srpske Country list
 
 on:
 workflow_dispatch:
@@ -13,7 +13,6 @@ jobs:
 update:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Check out repository
     uses: actions/checkout@v4
@@ -65,5 +64,4 @@ steps:
   - name: No changes
     if: steps.changes.outputs.changed == 'false'
     run: |
-      echo "No changes detected. output.txt is unchanged."
-```
+      echo "No changes detected. output.txt is unchaged."
