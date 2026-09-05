@@ -1,13 +1,11 @@
-yaml
+```yaml
 name: Update Pošta Srpske country list
 
-on:
+"on":
   workflow_dispatch:
 
   schedule:
-    # Every day at 06:17 Europe/Belgrade time.
     - cron: "17 6 * * *"
-      timezone: "Europe/Belgrade"
 
 permissions:
   contents: write
@@ -72,3 +70,4 @@ jobs:
         if: steps.changes.outputs.changed == 'false'
         run: |
           echo "No changes detected. output.txt is unchanged."
+```
