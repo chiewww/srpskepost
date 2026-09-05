@@ -2,7 +2,6 @@ name: Update Pošta Srpske country list
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "17 6 * * *"
 
@@ -14,22 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+      - run: python3 -m pip install -r requirements.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - run: python3 update.py
 
-      - name: Run scraper
-        run: python update.py
-
-      - name: Commit output
-        run: |
+      - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output.txt
