@@ -27,31 +27,24 @@ def normalize_for_comparison(text):
     return normalize_space(text).casefold()
 
 
-def extract_serbian_name(country_cell):
+def extract_country_text(country_cell):
     """
-    Extract the Serbian country/territory name from a cell such as:
+    Keep the complete visible country-column text.
 
+    Example:
         Avganistan (AF) AFGANISTAN
-        Crna Gora (ME) MONTENEGRO
-        Gernzi – (GB) GUERNSEY
 
-    The Serbian name is everything before the two-letter code.
+    The website may contain an asterisk used as a change marker.
+    That marker is removed so the output contains the actual
+    country/code/English-name information.
     """
+
     text = normalize_space(country_cell)
 
     # Remove the change marker used by Pošta Srpske.
     text = text.replace("*", "")
 
-    # Country code is normally a two-letter code in parentheses.
-    match = re.search(r"\s*\(([A-Z]{2})\)", text)
-
-    if match:
-        name = text[:match.start()]
-    else:
-        # Fallback if the website changes its formatting.
-        name = text
-
-    return normalize_space(name)
+    return normalize_space(text)
 
 
 def find_target_table(soup):
@@ -64,11 +57,16 @@ def find_target_table(soup):
 
         # Check <th> elements first.
         for th in table.find_all("th"):
-            headers.append(normalize_for_comparison(th.get_text(" ", strip=True)))
+            headers.append(
+                normalize_for_comparison(
+                    th.get_text(" ", strip=True)
+                )
+            )
 
-        # Some HTML tables may use the first row as headers instead.
+        # Some HTML tables may use the first row as headers.
         if not headers:
             first_row = table.find("tr")
+
             if first_row:
                 headers = [
                     normalize_for_comparison(
@@ -89,14 +87,15 @@ def parse_table(table):
     """
     Extract:
 
-      1. All country/territory names.
+      1. All country/territory names exactly as displayed in the
+         country column, including the two-letter code and English name.
       2. Suspended country/territory names.
 
     A country is suspended when:
-      - the allowed-services column contains STOP, OR
+      - the allowed-services column is STOP, OR
       - "Pismonosne" is missing from the allowed-services column.
 
-    Rows without a country name are ignored.
+    Both numbered countries and continuation/territory rows are included.
     """
 
     all_countries = []
@@ -111,64 +110,65 @@ def parse_table(table):
             continue
 
         cell_texts = [
-            normalize_space(cell.get_text(" ", strip=True))
+            normalize_space(
+                cell.get_text(" ", strip=True)
+            )
             for cell in cells
         ]
 
         # Skip the header row.
-        combined = normalize_for_comparison(" ".join(cell_texts))
+        combined = normalize_for_comparison(
+            " ".join(cell_texts)
+        )
+
         if (
             "odredišna zemlja" in combined
             or "dozvoljene vrste pošiljaka" in combined
         ):
             continue
 
-        # We need at least the country column and services column.
-        #
-        # Normal rows have:
+        # Normal rows:
         #   [R. b., country, services]
         #
-        # Some continuation rows have:
+        # Continuation/territory rows:
         #   [country, services]
-        #
-        # Therefore handle both forms.
 
         if len(cell_texts) >= 3:
             country_cell = cell_texts[-2]
             services_cell = cell_texts[-1]
+
         elif len(cell_texts) == 2:
             country_cell = cell_texts[0]
             services_cell = cell_texts[1]
+
         else:
             continue
 
-        country_name = extract_serbian_name(country_cell)
+        # The complete text from the country column.
+        country_text = extract_country_text(country_cell)
 
-        # Ignore obvious non-data rows.
-        if not country_name:
+        if not country_text:
             continue
 
-        if normalize_for_comparison(country_name) in {
-            "odredišna zemlja",
-            "odredišna zemlja srpski naziv",
-        }:
+        # A valid country/territory entry should contain a
+        # two-letter country/territory code in parentheses.
+        if not re.search(r"\([A-Z]{2}\)", country_text):
             continue
 
-        # A valid country cell should normally contain a country code.
-        # This prevents unrelated page/table rows from being collected.
-        if not re.search(r"\([A-Z]{2}\)", country_cell):
-            continue
+        all_countries.append(country_text)
 
-        all_countries.append(country_name)
-
-        services_normalized = normalize_for_comparison(services_cell)
+        services_normalized = normalize_for_comparison(
+            services_cell
+        )
 
         is_stop = services_normalized == "stop"
 
-        has_pismonosne = "pismonosne" in services_normalized
+        has_pismonosne = (
+            "pismonosne" in services_normalized
+        )
 
         if is_stop or not has_pismonosne:
-            suspended_countries.append(country_name)
+            suspended_countries.append(country_text)
 
     return all_countries, suspended_countries
 
@@ -177,7 +177,6 @@ def build_output(all_countries, suspended_countries):
     """
     Build a deterministic output file.
 
-    IMPORTANT:
     No retrieval timestamp is included because changedetection.io
     should only detect actual changes to the country lists.
     """
@@ -186,6 +185,7 @@ def build_output(all_countries, suspended_countries):
 
     lines.append("POŠTA SRPSKE - MEĐUNARODNE POŠILJKE")
     lines.append("")
+
     lines.append("SVE ZEMLJE")
     lines.append(f"Ukupno: {len(all_countries)}")
     lines.append("")
@@ -194,6 +194,7 @@ def build_output(all_countries, suspended_countries):
         lines.append(country)
 
     lines.append("")
+
     lines.append("SUSPENDOVANE ZEMLJE")
     lines.append(f"Ukupno: {len(suspended_countries)}")
     lines.append("")
@@ -225,15 +226,24 @@ def main():
                 "Accept-Language": "sr,en;q=0.8",
             },
         )
+
         response.raise_for_status()
 
     except requests.RequestException as exc:
-        print(f"ERROR: Could not download the website: {exc}", file=sys.stderr)
+        print(
+            f"ERROR: Could not download the website: {exc}",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
-    print(f"Downloaded {len(response.content):,} bytes")
+    print(
+        f"Downloaded {len(response.content):,} bytes"
+    )
 
-    soup = BeautifulSoup(response.content, "html.parser")
+    soup = BeautifulSoup(
+        response.content,
+        "html.parser",
+    )
 
     table = find_target_table(soup)
 
@@ -246,13 +256,20 @@ def main():
 
     all_countries, suspended_countries = parse_table(table)
 
-    print(f"Countries found: {len(all_countries)}")
-    print(f"Suspended countries found: {len(suspended_countries)}")
+    print(
+        f"Countries found: {len(all_countries)}"
+    )
+
+    print(
+        f"Suspended countries found: "
+        f"{len(suspended_countries)}"
+    )
 
     # Safety check.
     #
-    # If the website changes its HTML and our parser suddenly finds
-    # nothing, NEVER overwrite the existing output.txt with bad data.
+    # If the website changes its HTML and the parser suddenly
+    # finds too few countries, NEVER overwrite the existing
+    # output.txt with bad data.
     if len(all_countries) < 100:
         print(
             "ERROR: Fewer than 100 countries were found. "
@@ -276,7 +293,10 @@ def main():
         suspended_countries,
     )
 
-    OUTPUT_FILE.write_text(output, encoding="utf-8")
+    OUTPUT_FILE.write_text(
+        output,
+        encoding="utf-8",
+    )
 
     print(f"Wrote {OUTPUT_FILE}")
     print("Update completed successfully.")
