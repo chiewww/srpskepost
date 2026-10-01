@@ -1,4 +1,4 @@
-name: Update Pošta Srpske country list
+name: monitor Pošta Srpske country list
 
 on:
   workflow_dispatch:
